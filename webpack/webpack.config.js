@@ -13,7 +13,7 @@ module.exports = {
   output: {
     path: outputPath,
     filename: "index.js",
-    library: "truffle-hdwallet-provider",
+    library: "truffle-caver-provider",
     libraryTarget: "umd",
     umdNamedDefine: true
   },
