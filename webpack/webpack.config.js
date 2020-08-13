@@ -21,7 +21,7 @@ module.exports = {
   resolve: {
     alias: {
       // eth-block-tracker is es6 but automatically builds an es5 version for us on install. thanks eth-block-tracker!
-      "eth-block-tracker": "eth-block-tracker/dist/es5/index.js",
+      "eth-block-tracker": "eth-block-tracker/dist/es5/polling.js",
 
       // replace native `scrypt` module with pure js `js-scrypt`
       "scrypt": "js-scrypt",
